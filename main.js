@@ -33,7 +33,10 @@ const renderCategoryDetails = async (category) => {
 
 const renderCategories = async () => {
   app.innerHTML = `
-    <h1 class="title">See All The Delicious Foods</h1>
+    <div class="header-title">
+      <h4>mealapp API website</h4>
+      <h1>See All The Delicious Foods</h1>
+    </div>
     <div id="menus">Loading...</div>
   `;
 
