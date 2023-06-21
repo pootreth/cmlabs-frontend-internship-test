@@ -1,6 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, 'Poppins', sans-serif;
-  
+  font-family: system-ui, Avenir, Helvetica, "Poppins", sans-serif;
 }
 
 *,
@@ -24,8 +23,8 @@ nav {
   justify-content: space-between;
 }
 
-nav .logo{
-  font-family: 'Poppins', sans-serif;
+nav .logo {
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
 }
 
@@ -46,8 +45,8 @@ nav ul a {
 .header-title {
   text-align: center;
   font-family: Avenir;
-  color: #2A3D52;
-  background-color: #F9FAFB;
+  color: #2a3d52;
+  background-color: #f9fafb;
   padding: 6rem;
 }
 
@@ -62,9 +61,9 @@ h4 {
   grid-auto-rows: 10rem;
   padding-top: 3rem;
   justify-content: space-between;
-  padding-left: 10rem; 
-  padding-right: 160px;
-  padding-bottom: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 3rem;
   gap: 2rem;
 }
 
@@ -72,16 +71,18 @@ h4 {
   position: relative;
   border-radius: 1rem;
   border: 0;
+  cursor: pointer;
   background-color: transparent;
   overflow: hidden;
 }
 
 .menu::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: black;
   opacity: 0.25;
+  cursor: pointer;
 }
 
 .menu img {
@@ -105,6 +106,89 @@ h4 {
   font-family: Avenir;
   font-weight: 500;
   background-color: white;
-  color: #2A3D52;
+  color: #2a3d52;
   padding-left: 10rem;
+}
+
+.items-title {
+  margin-top: 2rem;
+  padding-left: 10rem;
+  font-family: Avenir;
+  color: #2a3d52;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10rem;
+  margin-top: 3rem;
+}
+
+.item-desc h3 {
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.row-above {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.item-desc img {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 1rem;
+}
+
+.item-instruction {
+  width: 50rem;
+  font-family: Avenir;
+}
+
+.item-instruction h3 {
+  color: #2a3d52;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.item-instruction h5 {
+  width: 30rem;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+.item-recipe{
+  font-family: Avenir;
+}
+
+.item-recipe h3 {
+  color: #2a3d52;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.item-recipe h3 ul{
+  width: 30rem;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: justify;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.item-video h3 {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  font-family: Avenir;
+  font-weight: 400;
+  color: #2a3d52;
+  font-size: 2rem;
 }
