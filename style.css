@@ -22,9 +22,12 @@ nav {
   justify-content: space-between;
 }
 
-nav .logo {
+nav button.logo {
+  border: 0;
+  background-color: transparent;
   font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
+  pointer-events: none;
+  cursor: pointer;
 }
 
 nav ul {
@@ -44,7 +47,7 @@ nav ul a {
 .header-title {
   text-align: center;
   font-family: Avenir;
-  color: #2a3d52;
+  color: var(--title-color);
   background-color: hsl(0, 0%, 95%);
   padding: 6rem;
 }
@@ -53,15 +56,18 @@ h4 {
   margin-bottom: 1rem;
 }
 
+#menus, .category-title {
+  margin-inline: auto;
+  padding-inline: 3rem;
+  max-width: 80vw;
+}
+
 #menus {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   grid-auto-rows: 10rem;
   justify-content: space-between;
-  padding-inline: 3rem;
   padding-block: 3rem;
-  margin-inline: auto;
-  max-width: 80vw;
   gap: 2rem;
 }
 
@@ -94,6 +100,8 @@ h4 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 92%;
+  line-height: 1.1;
   color: white;
   font-size: 2rem;
   font-family: Avenir, sans-serif;
@@ -104,14 +112,13 @@ h4 {
 .category-title {
   font-weight: 500;
   color: var(--title-color);
-  padding-left: 10rem;
 }
 
 .items-title {
   font-family: Avenir;
   margin-top: 2rem;
   padding-left: 10rem;
-  color: #2a3d52;
+  color: var(--title-color);
 }
 
 .item-details {
@@ -131,7 +138,6 @@ h4 {
 .row-above {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   gap: 3rem;
 }
 
@@ -147,22 +153,24 @@ h4 {
 }
 
 .item-instruction h3 {
-  color: #2a3d52;
+  color: var(--title-color);
   font-weight: 500;
   font-size: 2rem;
-  margin-top: 1rem;
 }
 
 .item-instruction h5 {
-  width: 25rem;
   font-size: 12px;
   font-weight: 400;
   text-align: justify;
   margin-top: 1rem;
 }
 
+.item-recipe {
+  margin-bottom: 5rem;
+}
+
 .item-recipe h3 {
-  color: #2a3d52;
+  color: var(--title-color);
   font-weight: 500;
   font-size: 2rem;
   margin-top: 2rem;
@@ -180,6 +188,36 @@ h4 {
   align-items: center;
   margin-top: 5rem;
   font-weight: 500;
-  color: #2a3d52;
+  color: var(--title-color);
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .row-above{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .row-above img{
+    width: 100%;
+    height: auto;
+  }
+
+  .item-title{
+    font-size: 0.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    /* background-color: blue; */
+    font-size: 12px;
+  }
+  .item-title{
+    font-size: 0.2rem;
+  }
 }
