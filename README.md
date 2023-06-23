@@ -1,5 +1,9 @@
 
+  
+
 # Tutorial Menjalankan Project cmlabs-frontend-internship-test
+
+  
 
   
 
@@ -7,7 +11,11 @@ Ini adalah tutorial untuk menjalankan proyek cmlabs-frontend-internship-test. Ik
 
   
 
+  
+
 ## Prasyarat
+
+  
 
   
 
@@ -15,9 +23,15 @@ Pastikan Anda telah memenuhi prasyarat berikut sebelum memulai:
 
   
 
+  
+
 - Node.js versi 14.x atau yang lebih baru
 
+  
+
 - Package Manager (npm atau yarn)
+
+  
 
   
 
@@ -25,39 +39,47 @@ Pastikan Anda telah memenuhi prasyarat berikut sebelum memulai:
 
   
 
+  
+
 1.  **Clone Repository**
 
   
 
-    Pertama, clone repository cmlabs-frontend-internship-test ke dalam direktori lokal Anda dengan menjalankan perintah berikut di terminal:
+  
+
+Pertama, clone repository cmlabs-frontend-internship-test ke dalam direktori lokal Anda dengan menjalankan perintah berikut di terminal:
 
   
 
-    
-
-    
-
-    
-
-	
-	    git clone https://github.com/pootreth/cmlabs-frontend-internship-test.git
+  
 
   
+
+  
+
+  
+
+    git clone https://github.com/pootreth/cmlabs-frontend-internship-test.git
+
+  
+
   
 
 2.  **Masuk ke Direktori**
 
   
 
-    Setelah cloning selesai, masuk ke direktori proyek dengan menjalankan perintah berikut:
-    
-      
-    
-    
+  
 
-	
+Setelah cloning selesai, masuk ke direktori proyek dengan menjalankan perintah berikut:
 
-		cd cmlabs-frontend-internship-test
+  
+
+  
+
+    cd cmlabs-frontend-internship-test
+
+  
 
   
 
@@ -65,37 +87,51 @@ Pastikan Anda telah memenuhi prasyarat berikut sebelum memulai:
 
   
 
-    Selanjutnya, instal semua dependencies proyek dengan menjalankan perintah berikut:
+  
+
+Selanjutnya, instal semua dependencies proyek dengan menjalankan perintah berikut:
 
   
 
-    
-
-	> `npm install`
-
+  
 
   
+
+> `npm install`
+
+  
+  
+
   
 
 4.  **Jalankan Proyek**
 
   
 
-	Setelah semua dependencies terinstal, jalankan proyek dengan menjalankan perintah berikut:
+  
 
-	  
+Setelah semua dependencies terinstal, jalankan proyek dengan menjalankan perintah berikut:
 
-    	> `npm start`
+  
 
+  
 
-	 
+> `npm start`
+
+  
+  
+
   
 
 5.  **Link Alternatif**
 
   
 
+  
+
 Anda bisa akses dengan link berikut.
+
+  
 
   
 
