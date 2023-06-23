@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
 :root {
-  font-family:  Avenir, sans-serif;
+  font-family: Avenir, sans-serif;
   --title-color: #2a3d52;
 }
 
@@ -56,7 +56,8 @@ h4 {
   margin-bottom: 1rem;
 }
 
-#menus, .category-title {
+#menus,
+.category-title {
   margin-inline: auto;
   padding-inline: 3rem;
   max-width: 80vw;
@@ -103,7 +104,7 @@ h4 {
   width: 92%;
   line-height: 1.1;
   color: white;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: Avenir, sans-serif;
   word-wrap: break-word;
   z-index: 10;
@@ -176,7 +177,7 @@ h4 {
   margin-top: 2rem;
 }
 
-.item-recipe ul#ingredients li{
+.item-recipe ul#ingredients li {
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5;
@@ -193,22 +194,24 @@ h4 {
 }
 
 @media only screen and (max-width: 1000px) {
-
-  .row-above{
+  .row-above {
     display: flex;
     flex-direction: column;
   }
 }
 
 @media (max-width: 640px) {
-
-  .row-above img{
+  .row-above img {
     width: 100%;
     height: auto;
   }
 
-  .item-title{
-    font-size: 0.2rem;
+  .menu h3{
+    font-size: 1.6rem;
+  }
+
+  .item-title {
+    font-size: 100%;
   }
 }
 
@@ -217,7 +220,20 @@ h4 {
     /* background-color: blue; */
     font-size: 12px;
   }
-  .item-title{
-    font-size: 0.2rem;
+
+  .header-title {
+    padding: 4rem;
+  }
+
+  #menus {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+
+  .menu h3{
+    font-size: 1.4rem;
+  }
+
+  nav ul a {
+    font-size: 8px;
   }
 }
