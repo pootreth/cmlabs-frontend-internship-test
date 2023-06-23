@@ -66,10 +66,6 @@ Pastikan Anda telah memenuhi prasyarat berikut sebelum memulai:
   
 
     Selanjutnya, instal semua dependencies proyek dengan menjalankan perintah berikut:
-    
-      
-    
-    Jika Anda menggunakan npm:
 
   
 
@@ -77,15 +73,6 @@ Pastikan Anda telah memenuhi prasyarat berikut sebelum memulai:
 
 	> `npm install`
 
-  
-
-    Jika Anda menggunakan yarn:
-    
-	    
-
-			
-
-	> `yarn`
 
   
   
@@ -98,22 +85,9 @@ Pastikan Anda telah memenuhi prasyarat berikut sebelum memulai:
 
 	  
 
-	Jika Anda menggunakan npm:
+    	`npm start`
 
-  
-
-	`npm start`
-
-	  
-
-	Jika Anda menggunakan yarn:
-
-	  
-
-	`yarn start`
-
-  
-  
+	 
   
 
 5.  **Link Alternatif**
