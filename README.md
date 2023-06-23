@@ -85,7 +85,7 @@ Pastikan Anda telah memenuhi prasyarat berikut sebelum memulai:
 
 	  
 
-    	`npm start`
+    	> `npm start`
 
 	 
   
