@@ -8,7 +8,7 @@ $(document).ready(function () {
   nav.html(`
     <h2 class='logo'>mealapp</h2>
     <ul>
-      <a href="#"><li>Home</li></a>
+      <a href="/"><li>Home</li></a>
       <a href="#"><li>Foods</li></a>
       <a href="#"><li>Ingredients</li></a>
       <a href="#"><li>Local Culinary</li></a>
